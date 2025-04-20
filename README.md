@@ -3,4 +3,4 @@ This tool helps people find out where their personal information is exposed onli
 
 #
 
-<div style="text-align: center;"> 🚧 </div>
+🚧
