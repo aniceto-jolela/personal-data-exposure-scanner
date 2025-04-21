@@ -1,1 +1,24 @@
-# Python project metadata that makes it installable. Useful for automatic documentation generation from sources.
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "personal_data_exposure_scanner"
+authors = [{name = "Aniceto Jolela", email = "otecina500@gmail.com"}]
+maintainers = [{name="Aniceto Jolela", email="otecina500@gmail.com"}]
+dynamic = ["description"]
+keywords = ["scanner", "personal", "data", "exposure"]
+
+classifiers = [
+"Development Status :: 5 - Production/Stable",
+"Intended Audience :: Companies, employees and customers
+]
+
+dependencies = [
+"requests"
+]
+
+[project.urls]
+"Repository" = "https://github.com/aniceto-jolela/personal-data-exposure-scanner"
+
+
