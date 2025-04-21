@@ -1,6 +1,8 @@
 # Configuration file for the Sphinx documentation builder.
 
 # -- Project information
+import sphinx_rtd_theme
+
 
 project = "personal_data_exposure_scanner"
 copyright = "2025, Aniceto"
@@ -17,7 +19,9 @@ extensions = [
     "sphinx.ext.autodoc",
     "sphinx.ext.autosummary",
     "sphinx.ext.intersphinx",
+    "sphinx_rtd_theme",
 ]
+html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 intersphinx_mapping = {
     "python": ("https://docs.python.org/3/", None),
