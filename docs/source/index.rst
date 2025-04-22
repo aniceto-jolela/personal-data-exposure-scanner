@@ -2,12 +2,12 @@ Welcome to Personal data exposure scanner
 =========================================
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 4
 
-   introduction
-   installation
+   Detailed Concept
+   Business Model Options
+   Personal Data Exposure Scanner: Implementation Plan
    usage
-   api_reference
 
 **Personal data exposure scanner** is a tool that helps people find out where their personal information is exposed online and provides step-by-step guidelines for removal requests.
 
