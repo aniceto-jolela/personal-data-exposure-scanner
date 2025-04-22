@@ -20,17 +20,6 @@ extensions = [
     "sphinx.ext.autosummary",
     "sphinx.ext.intersphinx",
     "sphinx_rtd_theme",
-    "sphinx_copybutton",
-    "sphinx_design",
-    "sphinx_tabs.tabs",
-    "sphinx-prompt",
-    "sphinx.ext.autosectionlabel",
-    "sphinx.ext.extlinks",
-    "sphinx.ext.intersphinx",
-    "sphinxcontrib.httpdomain",
-    "sphinxcontrib.video",
-    "sphinxemoji.sphinxemoji",
-    "sphinxext.opengraph",
 ]
 
 ogp_site_name = "Personal data exposure scanner Documentation"
