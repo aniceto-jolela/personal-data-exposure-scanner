@@ -1,6 +1,14 @@
 Welcome to Personal data exposure scanner
 =========================================
 
+.. toctree::
+   :maxdepth: 2
+
+   introduction
+   installation
+   usage
+   api_reference
+
 **Personal data exposure scanner** is a tool that helps people find out where their personal information is exposed online and provides step-by-step guidelines for removal requests.
 
 Personal Data Exposure Scanner: Detailed Concept
@@ -12,6 +20,7 @@ The scanner would help individuals discover and remediate their personal informa
 
 Key Features
 ~~~~~~~~~~~~
+
 1. Comprehensive Scanning Capabilities
  - Search across public databases, data brokers, breach repositories, and the open web
  - Identify exposed personally identifiable information (PII) like addresses, phone numbers, emails, and social media profiles
@@ -39,6 +48,7 @@ Key Features
 
 Implementation Approaches
 ~~~~~~~~~~~~~~~~~~~~~~~~~
+
 **SaaS Platform**
 * Web-based dashboard with user accounts and ongoing monitoring
 * Mobile companion app for on-the-go privacy management
@@ -46,6 +56,7 @@ Implementation Approaches
 
 Browser Extension
 ~~~~~~~~~~~~~~~~~
+
 * Real-time scanning as users browse
 * Privacy suggestions while interacting with websites
 * Form-filling assistance for removal requests
@@ -81,7 +92,7 @@ Development Phases
 **Advanced Phase:** AI-powered risk assessment, predictive exposure detection
 
 Impact Potential
-----------------
+^^^^^^^^^^^^^^^^
 - Reduces phishing and social engineering success rates
 - Decreases identity theft incidents
 - Empowers individuals with practical privacy tools
