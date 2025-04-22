@@ -1,18 +1,13 @@
+.. toctree::
+   :maxdepth: 6
+
 Welcome to Personal data exposure scanner
 =========================================
 
-.. toctree::
-   :maxdepth: 4
-
-   Detailed Concept
-   Business Model Options
-   Personal Data Exposure Scanner: Implementation Plan
-   usage
-
 **Personal data exposure scanner** is a tool that helps people find out where their personal information is exposed online and provides step-by-step guidelines for removal requests.
 
-Personal Data Exposure Scanner: Detailed Concept
-================================================
+Detailed Concept
+================
 
 Core Purpose
 ------------
@@ -99,8 +94,8 @@ Impact Potential
 - Helps companies reduce third-party risks through employees' personal exposures
 - Creates measurable privacy improvements with before/after metrics
 
-Personal Data Exposure Scanner: Implementation Plan
-===================================================
+Implementation Plan
+===================
 
 Core Technology Stack
 ---------------------
@@ -130,7 +125,8 @@ DevOps & Infrastructure
 * **Logging:** ELK Stack (Elasticsearch, Logstash, Kibana)
 
 Data Collection & Processing Tools
-----------------------------------
+==================================
+
 Web Scraping & Data Collection
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 * **Libraries:** Scrapy, Beautiful Soup, Selenium
@@ -234,7 +230,7 @@ Operational Best Practices
 * Detailed audit logging
 
 Challenges & Considerations
----------------------------
+===========================
 
 * **Legal Compliance:** Different regulations across jurisdictions
 * **Data Accuracy:** Maintaining high precision in identifying personal data
