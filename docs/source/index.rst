@@ -2,7 +2,7 @@ Welcome to Personal data exposure scanner
 =========================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 
    introduction
    installation
@@ -62,7 +62,7 @@ Browser Extension
 * Form-filling assistance for removal requests
 
 Business Model Options
-----------------------
+======================
 
 1. **B2C Direct Subscription**
 * Tiered pricing based on monitoring frequency and removal assistance level
@@ -104,6 +104,7 @@ Personal Data Exposure Scanner: Implementation Plan
 
 Core Technology Stack
 ---------------------
+
 Backend Development
 ^^^^^^^^^^^^^^^^^^^
 * **Programming Languages:** Python (for data processing) and Node.js (for API)
@@ -149,8 +150,10 @@ Data Processing Pipeline
 
 Security Implementation
 -----------------------
+
 Data Protection
 ^^^^^^^^^^^^^^^
+
 * **Encryption:** AES-256 for data at rest, TLS 1.3 for transmission
 * **Secrets Management:** HashiCorp Vault or AWS Secrets Manager
 * **Anonymization:** ARX Data Anonymization Tool or custom PII masking
@@ -169,8 +172,10 @@ Compliance Tools
 
 Key Development Phases
 ----------------------
+
 Phase 1: Foundation
 ~~~~~~~~~~~~~~~~~~~
+
 1. Set up secure development environment with proper access controls
 2. Implement core user management system with strong authentication
 3. Develop basic data collection modules for public records
@@ -192,8 +197,10 @@ Phase 3: Advanced Features
 
 Best Practices Implementation
 -----------------------------
+
 Security Best Practices
-^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~
+
 * Zero trust security model throughout the application
 * Principle of least privilege for all system components
 * Regular penetration testing and security audits
@@ -201,7 +208,8 @@ Security Best Practices
 * Privacy by design approach
 
 Development Best Practices
---------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 * Test-driven development methodology
 * Comprehensive CI/CD pipeline with automated testing
 * Code review requirements for all commits
@@ -209,7 +217,8 @@ Development Best Practices
 * Well-documented API with OpenAPI specification
 
 Data Handling Best Practices
-----------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 * Data minimization principles
 * Clear retention policies with automated enforcement
 * Regular privacy impact assessments
@@ -217,7 +226,7 @@ Data Handling Best Practices
 * Data portability and deletion capabilities
 
 Operational Best Practices
---------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 * Comprehensive monitoring and alerting
 * Incident response playbooks
 * Regular backup and recovery testing
@@ -226,6 +235,7 @@ Operational Best Practices
 
 Challenges & Considerations
 ---------------------------
+
 * **Legal Compliance:** Different regulations across jurisdictions
 * **Data Accuracy:** Maintaining high precision in identifying personal data
 * **Scalability:** Handling large volumes of scan requests
